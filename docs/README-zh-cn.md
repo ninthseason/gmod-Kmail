@@ -2,10 +2,10 @@
 
   # K-mail
 
-  <img src="https://img.shields.io/badge/license-GPL3.0-blue">
-  <img src="https://img.shields.io/badge/DarkRP-2.7.0-lightgreen">
-  <img src="https://img.shields.io/badge/ulib-2.63-orange">
-  <img src="https://img.shields.io/badge/ulx-3.73-red">
+  <a href="https://raw.githubusercontent.com/ninthseason/gmod-Kmail/main/LICENSE"><img src="https://img.shields.io/badge/license-GPL3.0-blue"></a>
+  <a href="https://github.com/FPtje/DarkRP"><img src="https://img.shields.io/badge/DarkRP-2.7.0-lightgreen"></a>
+  <a href="https://github.com/TeamUlysses/ulib"><img src="https://img.shields.io/badge/ulib-2.63-orange"></a>
+  <a href="https://github.com/TeamUlysses/ulx"><img src="https://img.shields.io/badge/ulx-3.73-red"></a>
 
   A Server Compansate System for DarkRP.
 
@@ -47,9 +47,9 @@
 
 #### 前置
 
-本插件为 DarkRP 模式开发。
+本插件为 [DarkRP](https://github.com/FPtje/DarkRP) 模式开发。
 
-本插件基于 ULX 及其依赖库 ULib。
+本插件基于 [ULX](https://github.com/TeamUlysses/ulx) 及其依赖库 [ULib](https://github.com/TeamUlysses/ulib)。
 
 #### 安装
 
