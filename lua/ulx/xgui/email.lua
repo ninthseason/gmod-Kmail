@@ -100,25 +100,23 @@ if show_send_panel then
 		print("[INFO]补偿正文:"..text)
 		print("[INFO]补偿金额:"..money)
 		print("[INFO]补偿署名:"..name)
-		-- local send_tip = xlib.makepanel{x=190, y=100, h=100, w=200, parent=send }
-		-- local send_tip_text = xlib.makelabel{ x=45, y=30, label="请再次核实补偿金额:"..money.."$ 发送后无法撤回", parent=send_tip }
-		-- local send_tip_button = xlib.makebutton{ x=45, y=50, w=100, label="发送", parent=send_tip }
-		-- local send_tip_button2 = xlib.makebutton{ x=155, y=50, w=100, label="取消", parent=send_tip }
-		-- send_tip_button.DoClick = function()
-		-- 	send_tip_text:Remove()
-		-- 	send_tip_button:Remove()
-		-- 	send_tip_button2:Remove()
-		-- 	send_tip:Remove()
-		-- 	kmail_send_compensate(title, text, money, name)
-		-- end
-		-- send_tip_button2.DoClick = function()
-		-- 	send_tip_text:Remove()
-		-- 	send_tip_button:Remove()
-		-- 	send_tip_button2:Remove()
-		-- 	send_tip:Remove()
-		-- end
-		kmail_send_compensate(title, text, money, name)
-		return
+		local send_tip = xlib.makepanel{x=140, y=100, h=100, w=300, parent=send }
+		local send_tip_text = xlib.makelabel{ x=45, y=30, label="请再次核实补偿金额:"..money.."$ 发送后无法撤回", parent=send_tip }
+		local send_tip_button = xlib.makebutton{ x=45, y=50, w=100, label="发送", parent=send_tip }
+		local send_tip_button2 = xlib.makebutton{ x=155, y=50, w=100, label="取消", parent=send_tip }
+		send_tip_button.DoClick = function()
+			send_tip_text:Remove()
+			send_tip_button:Remove()
+			send_tip_button2:Remove()
+			send_tip:Remove()
+			kmail_send_compensate(title, text, money, name)
+		end
+		send_tip_button2.DoClick = function()
+			send_tip_text:Remove()
+			send_tip_button:Remove()
+			send_tip_button2:Remove()
+			send_tip:Remove()
+		end
 	end
 
 	xlib.makelabel{ x=5, y=311, label="*发送前请核实补偿金额是否正确", parent=send }
