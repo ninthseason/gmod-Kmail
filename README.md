@@ -2,10 +2,10 @@
 
   # K-mail
   
-  <img src="https://img.shields.io/badge/license-GPL3.0-blue">
-  <img src="https://img.shields.io/badge/DarkRP-2.7.0-lightgreen">
-  <img src="https://img.shields.io/badge/ulib-2.63-orange">
-  <img src="https://img.shields.io/badge/ulx-3.73-red">
+  <a href="https://raw.githubusercontent.com/ninthseason/gmod-Kmail/main/LICENSE"><img src="https://img.shields.io/badge/license-GPL3.0-blue"></a>
+  <a href="https://github.com/FPtje/DarkRP"><img src="https://img.shields.io/badge/DarkRP-2.7.0-lightgreen"></a>
+  <a href="https://github.com/TeamUlysses/ulib"><img src="https://img.shields.io/badge/ulib-2.63-orange"></a>
+  <a href="https://github.com/TeamUlysses/ulx"><img src="https://img.shields.io/badge/ulx-3.73-red"></a>
   
   A Server Compansate System for DarkRP.
   
