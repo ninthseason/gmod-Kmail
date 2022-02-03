@@ -11,7 +11,7 @@
   
 </div>
 
-[中文](www.baidu.com)     English
+[中文](https://github.com/ninthseason/gmod-Kmail/blob/main/docs/README-zh-cn.md)     English
 
 ---
 
